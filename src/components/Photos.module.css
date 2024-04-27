@@ -1,0 +1,43 @@
+.photo{
+    width: 300px;
+    height: 300px;
+
+    background-color: azure;
+}
+
+.image{
+    width: 80%;
+    max-width: 440px;
+    max-height: 440px;
+
+    margin: 5% 10%;
+    padding: 0;
+
+    object-fit: cover;
+    object-position: center;
+
+    border-radius: 50px;
+}
+
+.button {
+    width: 50%;
+    
+    margin-top: 20px;
+    background: #252525;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    box-shadow: 6px 6px 6px #151515, -6px -6px 6px #151515,;
+    transition: 0.5s;
+}
+
+.text{
+    text-decoration: none;
+
+    font-family: "Inter" ,'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}

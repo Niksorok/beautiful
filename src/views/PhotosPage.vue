@@ -1,0 +1,25 @@
+<script setup>
+    import Photos from "../components/Photos.vue";
+</script>
+
+<template>
+    <main class="main">
+        <Photos/>
+    </main>
+</template>
+
+
+<style>
+    .main{
+        width: 100%;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+        
+        background-color: rgb(25, 25, 25);
+    }
+</style>
