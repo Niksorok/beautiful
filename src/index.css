@@ -1,0 +1,34 @@
+.image_block{
+    width: 100vw;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+    
+    position: absolute; 
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hover_image_wrapp{
+    width: 100%;
+    height: auto;
+    max-width: 440px;
+    max-height: 440px;
+    aspect-ratio: 1 / 1;
+
+    margin: 5%;
+    padding: 0;
+
+    object-fit: contain;
+    object-position: center;
+
+    overflow: hidden;
+    border-radius: 50px;
+    background-color: antiquewhite;
+}

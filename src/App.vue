@@ -3,13 +3,13 @@
 </script>
 
 <template>
-  <header>
+  <section>
       <nav class="temporarily">
         <RouterLink to="/">Имена </RouterLink>
         <br/>
         <RouterLink to="/photos"> Фоточки</RouterLink>
       </nav>
-  </header>
+  </section>
 
   <RouterView />
 </template>
@@ -19,5 +19,6 @@
     position: absolute;
     top: 10%;
     left: 10%;
+    z-index: 3;
   }
 </style>
