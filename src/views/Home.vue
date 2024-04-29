@@ -5,7 +5,7 @@
 
   const navig = (params) => {
     console.log(params)
-    router.push(`/photos/${name.value}/${Math.floor(Math.random() * 10)}`)
+    router.push(`/photos/${name.value}/${Math.floor(Math.random() * 3)}`)
   }
 </script>
 

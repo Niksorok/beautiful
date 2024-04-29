@@ -3,13 +3,13 @@
 </script>
 
 <template>
-  <section>
+  <!-- <section>
       <nav class="temporarily">
         <RouterLink to="/">Имена </RouterLink>
         <br/>
         <RouterLink to="/photos"> Фоточки</RouterLink>
       </nav>
-  </section>
+  </section> -->
 
   <RouterView />
 </template>

@@ -1,6 +1,7 @@
 <script setup>
     import displacement from "../assets/heightMap.jpg"
     import {onMounted, onUpdated, ref } from 'vue';
+    import hoverEffect from "hover-effect";
 
     const props = defineProps(['img1', 'img2', 'numder'])
 
